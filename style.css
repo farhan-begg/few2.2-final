@@ -1,0 +1,269 @@
+:root {
+    --color-sample-1: #7AB4DC;
+    --color-sample-2: #C8ECF8;
+    --color-sample-3: rgb(34, 50, 72);
+    --color-sample-4: rgb(51, 75, 108);
+    --color-sample-5: #D3C1D2;
+    --color-sample-6: rgb(164, 148, 163);
+    --color-sample-7: #008fc1;
+    --color-sample-8:#00B4F5;
+    --color-sample-9:#1FC3FF;
+    --color-sample-10:#47CEFF;
+    --color-sample-11:#70D9FF;
+    --color-sample-12:#0078A3;
+    --color-sample-13:#005A7A;
+    --color-sample-14:#003C52;
+    --color-sample-15:#001E29;
+    --color-sample-16: rgb(27, 183, 160);
+    --color-sample-17:#2ADFC4;
+    --color-sample-18:#4EE4CE;
+    --color-sample-19:#71EAD8;
+    --color-sample-20:#95EFE2;
+    --color-sample-21:#18A08B;
+    --color-sample-22:#137C6C;
+    --color-sample-23:#0E584D;
+    --color-sample-24:#08352E;
+    --color-sample-25: #228B22;
+    --color-sample-26:#2CB52C;
+    --color-sample-27:#3ACF3A;
+    --color-sample-28:#5BD75B;
+    --color-sample-29:#7CDF7C;
+    --color-sample-30:#249424;
+    --color-sample-31:#1C731C;
+    --color-sample-32:#145214;
+    --color-sample-33:#0C310C;
+    --color-sample-34: #DC143C;
+    --color-sample-35:#EC3257;
+    --color-sample-36:#EF5775;
+    --color-sample-37:#F37C94;
+    --color-sample-38:#F6A2B3;
+    --color-sample-39:#BB1133;
+    --color-sample-40:#950E29;
+    --color-sample-41:#700A1F;
+    --color-sample-42:#4B0714;
+    --color-sample-43: #2F3061;
+    --color-sample-44:#42438A;
+    --color-sample-45:#5051A5;
+    --color-sample-46:#6869B6;
+    --color-sample-47:#8384C3;
+    --color-sample-48:#282853;
+    --color-sample-49:#212145;
+    --color-sample-50:#1B1B37;
+    --color-sample-51:#141429;
+    --color-sample-52: #AD6A6C;
+    --color-sample-53:#BE898A;
+    --color-sample-54:#CCA3A4;
+    --color-sample-55:#DBBDBE;
+    --color-sample-56:#E9D8D8;
+    --color-sample-57:#9E5759;
+    --color-sample-58:#84484A;
+    --color-sample-59:#693A3C;
+    --color-sample-60:#4F2B2D;
+    --color-sample-61: #D2BF55;
+    --color-sample-62:#D8C86E;
+    --color-sample-63:#DDCF7E;
+    --color-sample-64:#E1D58E;
+    --color-sample-65:#E5DB9E;
+    --color-sample-66:#D0BC4E;
+    --color-sample-67:#CCB63E;
+    --color-sample-68:#C1AC33;
+    --color-sample-69:#A18F2B;
+    --color-sample-70: #C8ECF8;
+    --color-sample-71:#DBF2FA;
+    --color-sample-72:#EDF9FD;
+    --color-sample-73:#A5E0F3;
+    --color-sample-74:#81D3EE;
+    --color-sample-75:#5DC6E9;
+    --color-sample-76:#3AB9E4;
+    --color-sample-77: #707070;
+    --color-sample-78:#6461A0;
+    --color-sample-79:#314CB6;
+    --color-sample-80:#723D46;
+    --color-sample-81:#C1D7AE;
+    --color-sample-82:#472D30;
+    --color-sample-83:#EDBFB7;
+    --color-sample-84:#6E9887;
+    --color-sample-85:#474747;
+    --color-sample-86: #fff;
+    --color-sample-87: #FFBA08;
+    --color-sample-88: #f556c7;
+    --color-sample-89:#008fc1;
+    --color-sample-90: #008fc1;
+    --color-sample-91: #FDFFFC;
+    --color-sample-92: #000;
+    --color-sample-93: #757575;
+    --color-sample-94:#228B22;
+    --color-sample-95: #FFBA08;
+    --color-sample-96: #A0AF84;
+    --color-sample-97: rgb(37, 37, 37);
+    --color-sample-98:#FF8360;
+    --color-sample-99:#B5BFA1;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(19, 78, 80);
+    font-size: 12pt;
+    color: white;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  h1{
+      font-size: 30px;
+      color: var(--color-sample-11);
+  }
+  
+
+  #nav{
+    
+    display:flex;
+   justify-content: space-between;
+    align-items: baseline;
+    width: 10000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 1em;
+    font-size: 15px;
+    border-radius: 10px;
+    border-radius: 0px 0px 0px 7px;
+    background: #466368;
+    background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+  }
+
+  #nav a {
+    display: inline-block;
+    padding: 5px;
+    color: green;
+    text-decoration: none;
+
+}
+
+#nav a:hover{
+    color: yellow;
+}
+
+
+  
+  #popular {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 0px 20px;
+    text-align: center;
+
+    transition: 0.3s;
+    width: 300px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    width: 90px;
+    padding: 5px;
+    font-size: 12.5pt;
+    border: 1px solid var(--color-sample-1);
+    background-color: green;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    transition: 1000ms;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    border: 3px solid var(--color-sample-1);
+    color: var(--color-sample-1);
+  }
+  
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+  
+  .update {
+    background-color: var(--color-sample-91);
+    padding: 10px;
+    max-width: 50%;
+    border-radius: 25px;
+  }
+  
+  form {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  form > label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  
+  input[type=text],
+  textarea {
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 10px;
+
+    max-width: 100%;
+    outline: none !important;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+
+ 
+
+  #videoContainer{
+    width:100%;
+    min-height:100vh;
+      height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  #videoContainer .frame{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    min-height:100vh;
+    z-index:1;
+  }
+    
+  #videoContainer .tickerTape{
+    left:-5%;
+    bottom:2rem;
+    position:absolute;
+    display:block;
+    width:120%;
+    background:rgba(200,135,100,0.9);
+    color:#111;
+    z-index:2;
+    box-sizing:border-box;
+    padding: 1rem 0.25rem;
+    font-weight:100;
+    font-family:veranda, sans-serif;
+    overflow:hidden;
+    height:3rem;
+  }
+  .text{
+    position:absolute;
+    left:-5%;
+    animation:slideIt 20s linear;
+  }
+  
+  @keyframes slideIt{
+    0%{left:-5%;}
+    100%{left:105%;
+    }
+    
